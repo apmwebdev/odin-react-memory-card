@@ -1,0 +1,116 @@
+:root {
+  --text_color_d: rgba(255, 255, 255, 0.87);
+}
+
+.App > main {
+  max-width: 1280px;
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.ScoreboardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 24px;
+}
+
+.Instructions {
+  align-self: flex-end;
+}
+
+.Scoreboard > * {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#Cards {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 12px;
+}
+
+.Card {
+  height: 230px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid var(--text_color_d);
+  display: grid;
+  place-items: center;
+}
+
+.pic {
+  height: 190px;
+  width: 182px;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+}
+
+.pic1 {
+  background-image: url('../assets/pic1.png');
+}
+
+.pic2 {
+  background-image: url('../assets/pic2.png');
+}
+
+.pic3 {
+  background-image: url('../assets/pic3.png');
+}
+
+.pic4 {
+  background-image: url('../assets/pic4.png');
+}
+
+.pic5 {
+  background-image: url('../assets/pic5.png');
+}
+
+.pic6 {
+  background-image: url('../assets/pic6.png');
+}
+
+.pic7 {
+  background-image: url('../assets/pic7.png');
+}
+
+.pic8 {
+  background-image: url('../assets/pic8.png');
+}
+
+.pic9 {
+  background-image: url('../assets/pic9.png');
+}
+
+.pic10 {
+  background-image: url('../assets/pic10.png');
+}
+
+.pic11 {
+  background-image: url('../assets/pic11.png');
+}
+
+.pic12 {
+  background-image: url('../assets/pic12.png');
+}
+
+.pic13 {
+  background-image: url('../assets/pic13.png');
+}
+
+.pic14 {
+  background-image: url('../assets/pic14.jpeg');
+}
+
+.pic15 {
+  background-image: url('../assets/pic15.png');
+}
